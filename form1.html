@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+
+   *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    fieldset{
+       
+        border: 2px solid black;
+        margin: auto;
+        width: 50%;
+        margin-top: 50PX;
+
+    }
+    .name{
+        border: 2px solid black;
+    }
+    .name{
+        border: 2px solid black;
+    }
+    
+    label{
+        display: inline-block;
+        width: 100px;
+        text-align: left;
+    }
+    .name{
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+        }
+
+        input{
+            margin-top: 10px;
+        border-radius: 5px;
+        padding: 8px;
+        }
+        #color{
+            padding: 1px;
+        }
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+</style>
+
+    </head>
+<body>
+   <nav>
+        <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+           
+    </nav>
+    <fieldset>
+        <h1 style="display: flex; justify-content: center;">form</h1>
+<form action ="">
+    <div class="name">
+    <label for ="fname">First name</label><br>
+    <input type ="text" id="fname" name="fname"><br>
+</div>
+<div class="name">
+    <label for="lname">last name</label><br>
+    <input type="lname" id="lname" name="lname"><br><br>
+</div>
+<div class="name">
+    <label for="dob">Date of birth</label><br>
+    <input type="date" id="dob" name="dob"><br>
+</div>
+    
+    <div class="name">
+        <label for="radio">Gender</label>
+    <br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female" >female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">other</label> 
+</div>
+    
+    <div class="name">
+    <input type="checkbox" value="checkbox">
+    <label for="checkbox">are you available</label>
+    </div>
+    <div class="name">
+        <label for="email">email</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="email">password</label><br>
+        <input type="password" id="password" name="password"><br><br/>
+
+    </div><br>
+    <div class="name">
+        <label for="file">upload file</label><br>
+        <input type="file" id="file" name="file"><br><br/>
+    </div><br>
+    <div class="name">
+<label for="color">color</label><br>
+<input type="color" id="color" name="color"><br><br/>
+    </div><br>
+    <div class="name">
+        <label for="number">number</label><br>
+        <input type="number" id="number" name="number"><br><br/>
+    </div><br>
+    <div class="name">
+        <label for="range">range</label><br>
+        <input type="range" id="range" name="range" min="0" max="100" value="50" ><br><br/>
+    </div><br>
+    <div class="name">
+        <label for="textaerea">textaerea</label><br>
+        <input type="textaerea" id="textaerea" name="textaerea"><br><br/>
+    </div><br>
+    </div>
+    <div class="name">
+        <label for="select">select</label><br>
+    <select name="select" id="select">
+        <option value="option1">option1</option>
+        <option value="option2">option2</option>
+        <option value="option3">option3</option>
+    </select><br><br/>
+    </div><br>
+    <div class="name">
+        <label for="photo">photo</label><br>
+        <input type="image" id="image" name="image"><br><br/>
+    </div><br>
+<div class="name">
+    <label for="search">search</label><br>
+    <input type="search" id="search" name="search"><br><br/>
+</div><br>
+<div class="name">
+    <label for="tel">tel</label><br>
+    <input type="tel" id="tel" name="tel"><br><br/>
+</div><br>
+<div class="name">
+    <label for="url">url</label><br>
+    <input type="url" id="url" name="url"><br><br/>
+</div><br>
+</div>
+    <input type="submit" value="submit" onclick="alert('Your form has been submitted')" > <br><br/>
+</form>
+</fieldset>
+
+<div class="footer">
+   <h2>Made by Ritu</h2>
+
+  </div>
+</body>
+</html>
